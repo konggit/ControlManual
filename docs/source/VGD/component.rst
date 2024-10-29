@@ -5,6 +5,5 @@
    :maxdepth: 3
    :caption: 组件3
 
-   
    VGD/button.md
-   VGD/image.md 
+   VGD/image.md
