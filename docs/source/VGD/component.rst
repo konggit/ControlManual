@@ -1,9 +1,9 @@
-组件1
+组件2
 ==========================
 
 .. toctree::
-   :maxdepth: 2
-   :caption: 组件2
+   :maxdepth: 3
+   :caption: 组件3
 
    
    VGD/button.md
