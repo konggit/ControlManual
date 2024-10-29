@@ -18,6 +18,5 @@
    :caption: 可视化设计器
 
    VGD/VGD_Index.md
-   VGD/component
-   
+   VGD/component   
 
