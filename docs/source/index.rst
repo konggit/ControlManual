@@ -10,7 +10,7 @@
    :maxdepth: 2
    :caption: C2主机介绍
 
-   C2/1.md
+   C2/C2_Index.md
   
 
 .. toctree::
