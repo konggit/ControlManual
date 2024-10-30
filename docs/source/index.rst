@@ -20,4 +20,5 @@
 
    VGD/VGD_Index.md
    VGD/component.rst
+   VGD/newer_step.md
 
