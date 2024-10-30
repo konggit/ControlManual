@@ -1,10 +1,11 @@
-组件2
+组件
 ==========================
-这一部分主要介绍数据科学的入门内容;包含数据科学的基础工具
+组件是一个有一定功能的控件
 
 .. toctree::
    :maxdepth: 3
-   :caption: 组件3
+   :caption: 组件种类
 
    button.md
    image.md
+   Text.md
