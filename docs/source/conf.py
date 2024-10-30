@@ -30,3 +30,6 @@ html_static_path = ['_static']
 import sphinx_rtd_theme
 html_theme = "sphinx_rtd_theme"
 html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+
+def setup(app):
+    app.add_css_file('my_theme.css')
