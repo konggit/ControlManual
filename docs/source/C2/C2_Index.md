@@ -8,3 +8,141 @@
 &emsp;&emsp;内置8路继电器弱电控制
 &emsp;&emsp;内置8路数字输入信号
 &emsp;&emsp;轻松实现自定义命令，定时器控制，红外学习
+
+## 主机接口1
+
+<table>
+<tr>                      
+<td colspan= "3" >COM3</td>
+<td colspan= "3" >COM4</td>
+<td colspan= "3" >COM5</td>
+<td colspan= "3" >COM6</td>
+</tr>
+<tr> 
+<td>RS232_TX</td>
+<td>RS232_RX</td>
+<td>AGND</td>
+<td>RS232_TX</td>
+<td>RS232_RX</td>
+<td>AGND</td>
+<td>RS232_TX</td>
+<td>RS232_RX</td>
+<td>AGND</td>
+<td>RS232_TX</td>
+<td>RS232_RX</td>
+<td>AGND</td>
+</tr>
+<tr> 
+<td>CAN_L</td>
+<td>CAN_H</td>
+<td>AGND</td>
+<td>RS485_B</td>
+<td>RS485_A</td>
+<td>GND</td>
+<td>RS422_TX+/RS485_A+</td>
+<td>RS422_TX-/RS485_B-/RS232_TX</td>
+<td>RS422_RX+/RS232_RX</td>
+<td>RS422_RX-</td>
+<td>AGND</td>
+<td>AGND</td>
+</tr>
+<tr>
+<td colspan= "3" >CAN</td>
+<td colspan= "3" >RS485</td>
+<td colspan= "6" >RS422</td>
+</tr>
+</table>
+
+## 主机接口2
+
+<table>
+<tr>                        
+<td colspan= "2" class="center-text" >IR1</td>
+<td colspan= "2" class="center-text" >IR2</td>
+<td colspan= "2" class="center-text" >IR3</td>
+<td colspan= "2" class="center-text" >IR4</td>
+<td colspan= "2" class="center-text" >IR5</td>
+<td colspan= "2" class="center-text" >IR6</td>                        
+</tr>
+<tr>
+<td>IR1</td>
+<td>AGND</td>
+<td>IR2</td>
+<td>AGND</td>
+<td>IR3</td>
+<td>AGND</td>
+<td>IR4</td>
+<td>AGND</td>
+<td>IR5</td>
+<td>AGND</td>
+<td>IR6</td>
+<td>AGND</td>
+</tr>
+<tr>
+<td>RS232_TX</td>
+<td>RS232_RX</td>
+<td>AGND</td>
+<td>RS232_TX</td>
+<td>RS232_RX</td>
+<td>AGND</td>
+<td>AGND</td>
+<td>AGND</td>
+<td>AGND</td>
+<td>IR7-</td>
+<td>IR8</td>
+<td>AGND</td>
+</tr>
+<tr>
+<td colspan= "3" class="center-text">COM7</td>
+<td colspan= "3" class="center-text">COM8</td>
+<td colspan= "4" class="center-text">IR7</td>
+<td colspan= "2" class="center-text">IR8</td>
+</tr>
+</table>
+
+## 主机接口3
+
+<table >
+<tr>
+<td colspan= "3" class="center-text" >DI5</td>
+<td colspan= "3" class="center-text">DI6</td>
+<td colspan= "3" class="center-text">DI7</td>
+<td colspan= "3" class="center-text">DI8</td>
+</tr>
+<tr>
+<td>12V</td>
+<td>DI5+</td>
+<td>DI5-</td>
+<td>12V</td>
+<td>DI6+</td>
+<td>DI6-</td>
+<td>AGND</td>
+<td>DI7+</td>
+<td>DI7-</td>
+<td>AGND</td>
+<td>DI8+</td>
+<td>DI8-</td>
+</tr>
+<tr>
+<td>12V</td>
+<td>DI1+</td>
+<td>DI1-</td>
+<td>12V</td>
+<td>DI2+</td>
+<td>DI2-</td>
+<td>AGND</td>
+<td>DI3+</td>
+<td>DI3-</td>
+<td>AGND-</td>
+<td>DI2+</td>
+<td>DI2-</td>
+</tr>
+<tr>
+<td colspan= "3" class="center-text">DI1</td>
+<td colspan= "3" class="center-text">DI2</td>
+<td colspan= "3" class="center-text">DI3</td>
+<td colspan= "4" class="center-text">DI4</td>
+</tr>
+</table>
+
+## 主机接口4
