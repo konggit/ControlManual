@@ -11,7 +11,7 @@
 
 ## 主机接口1
 
-<table>
+<table border="1">
 <tr>                      
 <td colspan= "3" >COM3</td>
 <td colspan= "3" >COM4</td>
@@ -55,7 +55,7 @@
 
 ## 主机接口2
 
-<table>
+<table border="1">
 <tr>                        
 <td colspan= "2" class="center-text" >IR1</td>
 <td colspan= "2" class="center-text" >IR2</td>
@@ -102,7 +102,7 @@
 
 ## 主机接口3
 
-<table >
+<table border="1">
 <tr>
 <td colspan= "3" class="center-text" >DI5</td>
 <td colspan= "3" class="center-text">DI6</td>
@@ -146,3 +146,46 @@
 </table>
 
 ## 主机接口4
+
+<table border="1">
+<tr>
+<td colspan= "3" class="center-text">Relay5</td>
+<td colspan= "3" class="center-text">Relay6</td>
+<td colspan= "3" class="center-text">Relay7</td>
+<td colspan= "3" class="center-text">Relay8</td>
+</tr>
+<tr>
+<td>Relay5_A</td>
+<td>Relay5_B</td>
+<td>AGND</td>
+<td>Relay6_A</td>
+<td>Relay6_B</td>
+<td>AGND</td>
+<td>Relay7_A</td>
+<td>Relay7_B</td>
+<td>AGND</td>
+<td>Relay8_A</td>
+<td>Relay8_B</td>
+<td>AGND</td>
+</tr>
+<tr>
+<td>Relay1_A</td>
+<td>Relay1_B</td>
+<td>AGND</td>
+<td>Relay2_A</td>
+<td>Relay2_B</td>
+<td>AGND</td>
+<td>Relay3_A</td>
+<td>Relay3_B</td>
+<td>AGND</td>
+<td>Relay4_A</td>
+<td>Relay4_B</td>
+<td>AGND</td>
+</tr>
+<tr>
+<td colspan= "3" class="center-text">Relay1</td>
+<td colspan= "3" class="center-text">Relay2</td>
+<td colspan= "3" class="center-text">Relay3</td>
+<td colspan= "4" class="center-text">Relay4</td>
+</tr>
+</table>
