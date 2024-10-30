@@ -16,7 +16,7 @@
 <td>BYTE9</td>
 <td>BYTE10</td>
 <td>BYTE11</td>
-<td>...</td>
+<td>more</td>
 </tr>
 <tr>
 <td colspan= "2">BeginID</td>
@@ -41,7 +41,7 @@
 <td colspan= "1">DATA2</td>
 <td colspan= "1">DATA3</td>
 <td colspan= "1">DATA4</td>
-<td >...</td>
+<td >more</td>
 </tr>
 </table>
 
