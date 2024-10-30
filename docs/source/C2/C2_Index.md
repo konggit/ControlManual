@@ -39,9 +39,9 @@
 <td>RS485_B</td>
 <td>RS485_A</td>
 <td>GND</td>
-<td>RS422_TX+/RS485_A+</td>
-<td>RS422_TX-/RS485_B-/RS232_TX</td>
-<td>RS422_RX+/RS232_RX</td>
+<td>RS422_TX+<br>RS485_A+</td>
+<td>RS422_TX-<br>RS485_B-<br>RS232_TX</td>
+<td>RS422_RX+<br>RS232_RX</td>
 <td>RS422_RX-</td>
 <td>AGND</td>
 <td>AGND</td>
