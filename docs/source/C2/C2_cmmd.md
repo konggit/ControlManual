@@ -3,7 +3,8 @@
 ## 中控指令数据结构
 
 一个WORD 字节，低字节先发,以下所有的数字都是16进制,CRC 可以设置关闭，发送00 00
-<table border="1"  cellspacing="1" cellpadding="1" align="left">                    
+
+<table border="1">                    
 <tr>
 <td>BYTE1</td>
 <td>BYTE2</td>
