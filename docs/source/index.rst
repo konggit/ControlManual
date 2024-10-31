@@ -8,6 +8,7 @@
 
 .. toctree::
    :maxdepth: 2
+   :numbered:
    :caption: C2主机介绍
 
    C2/C2_Index.md
@@ -16,6 +17,7 @@
 
 .. toctree::
    :maxdepth: 2
+   :numbered:
    :caption: 可视化设计器
 
    VGD/VGD_Index.md
