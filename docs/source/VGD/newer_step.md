@@ -2,9 +2,7 @@
 
 ## 创建一个项目
 点击Design 左上角 “+”
-.. image:: images/steps/1newcontrolpad.png
-   :align: center
-   :alt: 产业应用
+![新建控制台](images/steps/1newcontrolpad.png "新建控制台")
 
 
 ## 创建一个画布
