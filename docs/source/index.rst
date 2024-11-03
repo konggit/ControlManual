@@ -16,7 +16,7 @@
   
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :numbered:
    :caption: 可视化设计器
 
