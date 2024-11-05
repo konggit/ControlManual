@@ -48,11 +48,11 @@
 
 ## 指令说明
 
-提示：一个WORD 字节，低字节先发,以下所有的数字都是16进制,CRC 可以设置关闭，发送00 00
-COM 值选择 0:IP,1:RS485,2:RS422,3:COM1,4:COM2,5:COM3,6:COM4,7:COM5,8:COM6,9:CAN
-COMs 值选择 bit0:IP,bit1:RS485,bit2:RS422,bit3:COM1,bit4:COM2,bit5:COM3,bit6:COM4,bit7:COM5,bit8:COM6,bit9:CAN
-RS422 Mode 0: RS232,1:RS485;2:RS422
-cFlag Bit7: 1 Enable;Bit6~0: 0：单次,1:每日,2:每周,4:每月，8：每年,10:每小时,20 每分钟,40 间隔
+提示：  
+COM 值选择 0:IP,1:RS485,2:RS422,3:COM1,4:COM2,5:COM3,6:COM4,7:COM5,8:COM6,9:CAN  
+COMs 值选择 bit0:IP,bit1:RS485,bit2:RS422,bit3:COM1,bit4:COM2,bit5:COM3,bit6:COM4,bit7:COM5,bit8:COM6,bit9:CAN  
+RS422 Mode 0: RS232,1:RS485;2:RS422  
+cFlag Bit7: 1 Enable;Bit6~0: 0：单次,1:每日,2:每周,4:每月，8：每年,10:每小时,20 每分钟,40 间隔  
 
 
 <table border="1"  cellspacing="1" cellpadding="1" align="left">                    

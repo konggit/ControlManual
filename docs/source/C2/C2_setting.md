@@ -12,12 +12,12 @@
 
 ## 设置界面
 
-![设置界面](../images/C2/2settings.png.png "设置界面") 
+![设置界面](../images/C2/2settings.png "设置界面") 
  
 
 ## 用户命令界面
 
-![设置界面](../images/C2/3precmmd.png" 设置界面") 
+![设置界面](../images/C2/3usercmmd.png" "设置界面") 
 
 ## 预设命令界面
-![预设命令界面](../images/C2/4usercmmd.png" 预设命令界面") 
+![预设命令界面](../images/C2/4precmmd.png" "预设命令界面") 
