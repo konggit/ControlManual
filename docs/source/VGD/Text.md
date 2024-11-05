@@ -6,7 +6,7 @@
 
 |属性|解释说明|
 |:------:|-----|
-| ID  | 控件的IDtttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt |
+| ID  | 控件的ID |
 | 位置  | 在画布上的坐标 |
 | 顺序  | 在Z上的层叠顺序 |
 | 大小  | 单位像素 |

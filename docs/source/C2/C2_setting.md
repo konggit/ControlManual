@@ -17,7 +17,7 @@
 
 ## 用户命令界面
 
-![设置界面](../images/C2/3usercmmd.png" "设置界面") 
+![设置界面](../images/C2/3usercmmd.png "设置界面") 
 
 ## 预设命令界面
-![预设命令界面](../images/C2/4precmmd.png" "预设命令界面") 
+![预设命令界面](../images/C2/4precmmd.png "预设命令界面") 
