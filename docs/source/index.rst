@@ -12,6 +12,7 @@
    :caption: C2主机介绍
 
    C2/C2_Index.md
+   C2/C2_terms.md
    C2/C2_cmmd.md
    C2/C2_setting.md
   
