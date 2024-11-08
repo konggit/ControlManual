@@ -60,10 +60,10 @@
    
 |命令|解释说明|
 |:------:|-----|
-| ASCII  |cenceCall x\r\n | \r 表示回车，\n 表示换行|
+| ASCII  |ScenceCall x\r\n | \r 表示回车,\n 表示换行，x 表示第几个场景，这里用1|
 | HEX  | 53 63 65 6E 63 65 43 61 6C 6C 20 31 0D 0A||
 
-如下图 
+如下图  
 ![用户命令场景调用](../images/steps/12usercmmd.png)
 
 
