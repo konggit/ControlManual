@@ -28,4 +28,6 @@
 
 **数据选择ASCII 时候在 控件属性里的 关联的 指令数据就需要填写是ASCII字符**   
 **数据选择Hex 时候在 控件属性里的 关联的 指令数据就需要填写是HEX 数据**
+** HEX 格式包含了 ASCII 的所有字符 我们一般选择HEX 的模式 **
+HEX 和 ASCII 互转 [参考这里](https://coding.tools/cn/ascii-to-hex)
 
