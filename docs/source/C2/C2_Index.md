@@ -273,3 +273,33 @@
 </tr>
 </table>
 
+# 面板介绍
+
+<table border="1">
+<tr>                      
+<td rowspan= "2" >液晶屏</td>
+<td rowspan= "2" >电源指示灯</td>
+<td rowspan= "2" >红外接收头</td>
+<td colspan= "1" >RS485 数据指示灯</td>
+<td colspan= "1" >RS422 数据指示灯</td>
+<td colspan= "1" >COM3 数据指示灯</td>
+<td colspan= "1" >COM4 数据指示灯</td>
+<td colspan= "1" >COM5 数据指示灯</td>
+<td colspan= "1" >按键1</td>
+<td colspan= "1" >按键2</td>
+</tr>
+<tr> 
+<td>COM6 数据指示灯</td>
+<td>COM7 数据指示灯</td>
+<td>COM8 数据指示灯</td>
+<td>保留</td>
+<td>保留</td>
+<td>按键3</td>
+<td>按键4</td>
+</tr>
+</table>
+
+
+
+
+
