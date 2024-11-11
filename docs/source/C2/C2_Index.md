@@ -1,13 +1,35 @@
 # 主机介绍
 
-&emsp;&emsp;**C2 中控**使用无需编程概念，完成串口、红外、继电器、IO通道工作。
+&emsp;&emsp;**C2 中控**使用无需编程概念，完成串口、红外、继电器、IO通道工作。  
 
-&emsp;&emsp;主机内置2路网络模块接口，可根据实际情况调整为TCP server（默认）、UDP client。
-&emsp;&emsp;内置5路RS232/ 1 路RS485可选端口/ 1路RS422/RS485/RS232 可配接口。
-&emsp;&emsp;内置8路IR 发送
-&emsp;&emsp;内置8路继电器弱电控制
-&emsp;&emsp;内置8路数字输入信号
-&emsp;&emsp;轻松实现自定义命令，定时器控制，红外学习
+- 主机内置2路网络模块接口，可根据实际情况调整为TCP server（默认）、UDP client。  
+- 内置5路RS232[C21 主机带13路串口]/ 1 路RS485可选端口/ 1路RS422/RS485/RS232 可配接口。  
+- 内置8路IR 发送。  
+- 内置8路继电器弱电控制。  
+- 内置8路数字输入信号。  
+- 轻松实现自定义命令，定时器控制，红外学习。  
+
+## 整体接口布局
+
+<table border="1">
+<tr>  
+<td  > </td>
+<td  > </td>
+<td >扩展接口5</td>
+<td >扩展接口6</td>
+
+</tr>
+<tr> 
+<td>WAN 口</td>
+<td>LAN 口</td>
+<td>接口1</td>
+<td>接口2</td>
+<td>接口3</td>
+<td>接口4</td>
+<td>接口5</td>
+<td>电源12V</td>
+</tr>
+</table>
 
 ## 主机接口1
 
@@ -187,6 +209,67 @@
 <td colspan= "3" class="center-text">Relay2</td>
 <td colspan= "3" class="center-text">Relay3</td>
 <td colspan= "4" class="center-text">Relay4</td>
+</tr>
+</table>  
+
+## 主机接口5
+0 到10V 可调电压输出  此接口默认为保留接口。
+<table border="1">
+<tr>  
+<td >VO+</td>
+<td >VO-</td>
+<td >AGND</td>
+</tr>
+
+</table>
+
+## 扩展接口6
+
+<table border="1">
+<tr>                      
+<td colspan= "3" >COM9</td>
+<td colspan= "3" >COM10</td>
+<td colspan= "3" >COM11</td>
+<td colspan= "3" >COM12</td>
+</tr>
+<tr> 
+<td>RS232_TX</td>
+<td>RS232_RX</td>
+<td>AGND</td>
+<td>RS232_TX</td>
+<td>RS232_RX</td>
+<td>AGND</td>
+<td>RS232_TX</td>
+<td>RS232_RX</td>
+<td>AGND</td>
+<td>RS232_TX</td>
+<td>RS232_RX</td>
+<td>AGND</td>
+</tr>
+</table>
+
+## 扩展接口7
+
+<table border="1">
+<tr>                      
+<td colspan= "3" >COM13</td>
+<td colspan= "3" >COM14</td>
+<td colspan= "3" >COM15</td>
+<td colspan= "3" >COM16</td>
+</tr>
+<tr> 
+<td>RS232_TX</td>
+<td>RS232_RX</td>
+<td>AGND</td>
+<td>RS232_TX</td>
+<td>RS232_RX</td>
+<td>AGND</td>
+<td>RS232_TX</td>
+<td>RS232_RX</td>
+<td>AGND</td>
+<td>RS232_TX</td>
+<td>RS232_RX</td>
+<td>AGND</td>
 </tr>
 </table>
 
