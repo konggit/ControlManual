@@ -78,7 +78,7 @@
 ![测试](../images/steps/13usercmmd.png)
 
 ### 下载
-[下载](../demo/Demo1.zdp)
+[下载](https://gitee.com/kongyq/vgdbin/blob/master/demo_sample/Demo1.zdp)
 
 
 
