@@ -75,6 +75,7 @@
 </tr>
 </table>
 
+- TX 表示 数据数据fa'chu
 ## 主机接口2
 
 <table border="1">
@@ -110,7 +111,7 @@
 <td>AGND</td>
 <td>AGND</td>
 <td>AGND</td>
-<td>IR7-</td>
+<td>IR7</td>
 <td>IR8</td>
 <td>AGND</td>
 </tr>
@@ -167,7 +168,7 @@
 </tr>
 </table>
 
-## 主机接口4
+## 主机接口4  
 
 <table border="1">
 <tr>
