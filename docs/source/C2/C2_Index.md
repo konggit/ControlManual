@@ -164,8 +164,8 @@
 <td>DI3+</td>
 <td>DI3-</td>
 <td>AGND-</td>
-<td>DI2+</td>
-<td>DI2-</td>
+<td>DI4+</td>
+<td>DI4-</td>
 </tr>
 <tr>
 <td colspan= "3" class="center-text">DI1</td>
