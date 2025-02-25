@@ -9,7 +9,7 @@
 .. toctree::
    :maxdepth: 2
    :numbered:
-   :caption: C2主机介绍
+   :caption: WH主机介绍
 
    C2/C2_Index.md
    C2/C2_terms.md
