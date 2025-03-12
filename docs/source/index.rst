@@ -26,4 +26,5 @@
    VGD/devices.md
    VGD/component.rst
    VGD/newer_step.md
+   VGD/advance_step.md
 
