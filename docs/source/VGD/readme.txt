@@ -11,3 +11,4 @@ index.rst
       |                  |----增加其他组件说明
       |
       |--VGD/newer_step.md   新手入门
+	  |--VGD/advance_step.md 高级入门
