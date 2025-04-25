@@ -138,9 +138,16 @@
 ![视频源控件属性](../images/steps/advance_10.png "视频源控件属性")
 
 ![效果图](../images/steps/advance_11.png "效果图")
+ 将信号源上显示的预览拖入到显示器上，修改位置和大小。  
 ![反控](../images/steps/advance_12.png "反控")
 
 反控 就是把当前显示设备的 鼠标 消息传给 信号源(比如PC),这个要流媒体支持才行。
+
+
+## 滑动条
+![滑动条](../images/steps/advance_13.png "滑动条")
+在发送数据里用% 表示 当前滑动调的值(如果数据格式是Int16，则低字节先发)
+![滑动条接收数据](../images/steps/advance_14.png "滑动条接收数据")
 
 
 
