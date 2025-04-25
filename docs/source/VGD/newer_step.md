@@ -95,10 +95,10 @@
  2. 2.1打开解析器 ，如果不是在 “工程文件选择” 界面的话，长按 “菜单” 进入 “工程文件选择”  界面。  
     2.2 在设计器的 快捷 按钮上 点击 “发送” 按钮，这样就会把 工程文件更新。
 	2.3 在解析器上选择 “新建操控台.zdp” 进入运行状态  
-	![进入工程文件选择](../images/steps/14enterselectproject.png "工程文件选择")  
-	![工程文件选择界面](../images/steps/15selectproject.png "程文件选择界面")
-	![点击发送](../images/steps/16sendprject.png "点击发送") 
-	![发送工程文件](../images/steps/17selectIP.png "发送工程文件")
+	![进入工程文件选择](../images/steps/14enterselectproject.png "工程文件选择")    
+	![工程文件选择界面](../images/steps/15selectproject.png "程文件选择界面")  
+	![点击发送](../images/steps/16sendprject.png "点击发送")   
+	![发送工程文件](../images/steps/17selectIP.png "发送工程文件")  
 	
 	
 	
