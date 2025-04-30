@@ -9,8 +9,8 @@
 - 内置8路数字输入信号。  
 - 轻松实现自定义命令，定时器控制，红外学习。  
 
-![C2主机](../images/c2/c2_front.png "C2主机")
-![C2主机](../images/c2/c2_back.png "C2主机")
+![C2主机F](../images/C2/c2_front.png "C2主机F")  
+![C2主机B](../images/C2/c2_back.png "C2主机B")
 
 ## 整体接口布局
 
