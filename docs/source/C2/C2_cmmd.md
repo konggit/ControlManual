@@ -49,8 +49,10 @@
 ## 指令说明
 
 提示：  
-COM 值选择 0:IP,1:RS485,2:RS422,3:COM1,4:COM2,5:COM3,6:COM4,7:COM5,8:COM6,9:CAN  
-COMs 值选择 bit0:IP,bit1:RS485,bit2:RS422,bit3:COM1,bit4:COM2,bit5:COM3,bit6:COM4,bit7:COM5,bit8:COM6,bit9:CAN  
+COM 值选择(十进制数值)     0:IP,1:RS485,2:RS422,3:COM1,4:COM2,5:COM3,6:COM4,7:COM5,8:COM6,9:CAN  
+    带扩展中控(十进制数值) 0:IP,1:RS485,2:RS422,3:COM1,4:COM2,5:COM3,6:COM4,7:COM5,8:COM6,9:COM7,10:COM8,11:COM9,12:COM10,13:COM11,14:COM12,15:COM13, 16:COM14,17:CAN  
+COMs 值选择(十进制数值)      bit0:IP,bit1:RS485,bit2:RS422,bit3:COM1,bit4:COM2,bit5:COM3,bit6:COM4,bit7:COM5,bit8:COM6,bit9:CAN  
+     带扩展中控(十进制数值)  bit0:IP,bit1:RS485,bit2:RS422,bit3:COM1,bit4:COM2,bit5:COM3,bit6:COM4,bit7:COM5,bit8:COM6,bit9:COM7,bit10:COM8,bit11:COM9,bit12:COM10,bit13:COM11,bit14:COM12,bit15:COM13  
 RS422 Mode 0: RS232,1:RS485;2:RS422  
 cFlag Bit7: 1 Enable;Bit6~0: 0：单次,1:每日,2:每周,4:每月，8：每年,10:每小时,20 每分钟,40 间隔  
 
@@ -215,6 +217,9 @@ cFlag Bit7: 1 Enable;Bit6~0: 0：单次,1:每日,2:每周,4:每月，8：每年,
 <td>COM</td>
 <td>Data1</td>
 <td>Data2</td>
+<td>Data3</td>
+<td>Data4</td>
+<td>Data5</td>
 <td>...</td>
 </tr>
 <tr>
@@ -431,6 +436,15 @@ cFlag Bit7: 1 Enable;Bit6~0: 0：单次,1:每日,2:每周,4:每月，8：每年,
 </table>
 </div>
 
-- 注意：
-数据多端口转发 指令的 COMs 只有16位，因此在 带扩展 串口的 主机上 最后两个端口(COM16,CAN) 不适合本条指令.  
+- 注意：  
+1.数据多端口转发 指令的 COMs 只有16位，因此在 带扩展 串口的 主机上 最后两个端口(COM16,CAN) 不适合本条指令.  
+2.在数据转发中，如果向CAN 发送数据则前4个字节为CAN 的配置信息  
+例如： 发送的数据DATA1 = 0x11 DATA2 = 0x22 DATA3 = 0x33 DATA4 = 0x44  
+则主机收到的值为0x44332211  二进制为 ‭01000100001100110010001000010001‬  
+其中 bit[28:0] 表示 Id (标准帧ID 最大 0x7ff)  
+     bit[29] 表示 标准帧(0)或者扩展帧(1)  
+     bit[30] 表示 数据帧(0) 或者远程帧(1)  
+举例：在带扩展主机C21 下要向CAN 发送 标准数据帧,帧ID 为0x105,发送数据 11 22 33 44  
+      CAN 的配置信息数据 = 0<<30|0<<29|0x105<<0 = 0x0000 0105 , DATA1= 05 DATA2= 01 DATA3= 00 DATA4= 00,DATA5= 11 DATA6= 22 DATA7= 33 DATA8= 44  
+      完整指令：BEEF5409006B09110501000011223344  
 
